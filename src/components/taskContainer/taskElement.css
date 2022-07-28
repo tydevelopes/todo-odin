@@ -1,0 +1,26 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.5rem;
+}
+
+.task-date-wrapper {
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.task-description {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+.indent-1 {
+  margin-left: 2rem;
+}
+/* .indent-2 {
+  margin-left: 6rem;
+}
+.indent-3 {
+  margin-left: 9rem;
+} */

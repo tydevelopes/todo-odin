@@ -1,0 +1,62 @@
+.toggle-completed {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  /* color: salmon; */
+  overflow: hidden;
+}
+.toggle-completed > .completed-icon {
+  font-size: 1.8rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s;
+  border-radius: 50%;
+}
+.toggle-completed > .show {
+  opacity: 1;
+  background-color: rgb(78, 74, 74);
+  color: white;
+  font-size: 2rem;
+  visibility: visible;
+}
+.toggle-border {
+  border: none;
+}
+
+.toggle-completed > .completed-icon-hover {
+  visibility: visible;
+  opacity: 0.4;
+}
+
+.list-item > .priority-1 {
+  border: 1px solid #ff7066;
+  color: #ff7066;
+}
+.list-item > .priority-2 {
+  border: 1px solid #fe9a14;
+  color: #fe9a14;
+}
+.list-item > .priority-3 {
+  border: 1px solid #5297fe;
+  color: #5297fe;
+}
+.list-item > .priority-4 {
+  border: 1px solid #7f7f7f;
+  color: #7f7f7f;
+}
+.toggle-completed > .priority-1-bg {
+  background-color: #ff7066;
+}
+.toggle-completed > .priority-2-bg {
+  background-color: #fe9a14;
+}
+.toggle-completed > .priority-3-bg {
+  background-color: #5297fe;
+}
+.toggle-completed > .priority-4-bg {
+  background-color: #7f7f7f;
+}

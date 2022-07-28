@@ -1,0 +1,14 @@
+.section-form {
+  background-color: var(--card-bg-color);
+  width: min(40rem, 100%);
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 0.4rem;
+}
+
+.section-button-container {
+  display: flex;
+  gap: 2rem;
+}

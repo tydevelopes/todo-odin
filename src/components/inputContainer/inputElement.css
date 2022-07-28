@@ -1,0 +1,13 @@
+input {
+  padding: 0.6rem;
+  display: block;
+  width: 100%;
+  border-radius: 0.4rem;
+  /* border: 1px solid rgba(0, 0, 0, 0.2); */
+  border: none;
+  background-color: transparent;
+  color: var(--main-text-color);
+}
+input:focus {
+  outline: 1px solid var(--border-color);
+}

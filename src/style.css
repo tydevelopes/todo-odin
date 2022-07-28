@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap");
+
+:root {
+  --golden: #f97316;
+  --golden-light: #fb923c;
+  --icon-color: #00c3f9;
+  --big-font: 500 1.8rem/2.8rem "Roboto Flex";
+  --medium-font: 400 1.6rem/2.4rem "Roboto Flex";
+  --small-font: 300 1.4rem/2rem "Roboto Flex";
+  --thin-font: 200 1.2rem/1.8rem "Roboto Flex";
+  --medium-space: 2rem;
+  --small-space: 1rem;
+  --thin-space: 0.5rem;
+}
+:root.light {
+  --body-color: #fdfdfd;
+  --main-bg-color: #f7f7f7;
+  --card-bg-color: rgb(241, 237, 237);
+  --heading-color: #0f172a;
+  --main-text-color: #535353;
+  --border-color: #f1f5f9;
+  --span-color: #334155;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+:root.dark {
+  --body-color: rgb(44, 39, 39);
+  --main-bg-color: #38393a;
+  --card-bg-color: #2d2d2e;
+  --heading-color: #ffffff;
+  --main-text-color: #c8cdd3;
+  --border-color: #414142;
+  --span-color: #cbd5e1;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto Flex", sans-serif;
+  background-color: var(--body-color);
+  position: relative;
+  min-height: 100vh;
+  color: var(--main-text-color);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 20;
+  font-size: 1.6rem;
+}
+.material-symbols-outlined.fill {
+  font-variation-settings: "FILL" 1, "wght" 300, "GRAD" 0, "opsz" 20;
+}
+
+#app {
+  flex-direction: column;
+}
+
+.menu-main-wrapper {
+  display: flex;
+  min-height: calc(100vh - 4.5rem);
+  width: 100vw;
+}
+
+.section-wrapper .hide,
+.project-wrapper .hide,
+.project-list-wrapper .hide,
+.favorite-list-wrapper .hide {
+  display: none;
+}

@@ -1,0 +1,15 @@
+button[type="button"] {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  background-color: var(--main-bg-color);
+}
+
+button[type="button"] > .icon {
+  font-size: 1.2rem;
+}
+
+.color-dialogue-container {
+  position: relative;
+}

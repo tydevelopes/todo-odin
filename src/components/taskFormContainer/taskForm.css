@@ -1,0 +1,21 @@
+.date-priority-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-form {
+  background-color: var(--card-bg-color);
+  width: min(40rem, 100%);
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  position: relative;
+}
+
+.task-button-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+}

@@ -1,0 +1,12 @@
+.project-list-head {
+  display: flex;
+  align-items: center;
+}
+.project-list-head > *:last-child {
+  margin-left: auto;
+}
+
+.project-item > :nth-child(3) {
+  opacity: 0.7;
+  font-size: 0.8rem;
+}

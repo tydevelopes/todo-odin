@@ -1,0 +1,15 @@
+button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  text-transform: capitalize;
+  color: white;
+  cursor: pointer;
+  font-size: inherit;
+}
+button[type="submit"] {
+  background-color: salmon;
+}
+button[type="reset"] {
+  background-color: rgb(99, 91, 90);
+}

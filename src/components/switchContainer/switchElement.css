@@ -1,0 +1,17 @@
+.switch-wrapper {
+  width: 32px;
+  height: 18px;
+  background-color: #ccc;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 2px;
+  transition: all 0.3s linear;
+}
+
+.switch {
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  border-radius: 50%;
+}

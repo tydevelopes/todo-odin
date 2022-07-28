@@ -1,0 +1,15 @@
+.section-head {
+  display: flex;
+  align-items: center;
+}
+.section-head > :last-child {
+  margin-left: auto;
+}
+
+.section-name > :nth-child(2) {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.section-name > :nth-child(3) {
+  opacity: 0.7;
+}

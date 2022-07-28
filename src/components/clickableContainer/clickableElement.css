@@ -1,0 +1,29 @@
+.clickable {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 0.8rem;
+  cursor: pointer;
+  position: relative;
+  padding: 0.5rem 1rem;
+}
+.clickable:hover {
+  background-color: rgba(78, 74, 74, 0.1);
+}
+.right-label {
+  margin-left: auto;
+}
+
+.tooltip {
+  visibility: hidden;
+  min-width: max-content;
+  background-color: rgb(29, 27, 27);
+  color: rgb(230, 223, 223);
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 20;
+  top: 100%;
+  left: 0;
+}

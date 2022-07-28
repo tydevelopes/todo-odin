@@ -1,0 +1,29 @@
+.project-form {
+  background-color: var(--card-bg-color);
+  height: 50vh;
+  width: min(35rem, 100%);
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  position: absolute;
+}
+.project-form > input {
+}
+.project-color-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.project-switch-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.project-button-container {
+  align-self: flex-end;
+  margin-top: auto;
+  display: flex;
+  gap: 2rem;
+}

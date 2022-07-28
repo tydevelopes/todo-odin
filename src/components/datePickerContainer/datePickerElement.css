@@ -1,0 +1,89 @@
+.date-form {
+  display: flex;
+  flex-direction: column;
+  width: 21rem;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+  padding-bottom: 1rem;
+  position: absolute;
+  background-color: rgb(41, 38, 41);
+}
+
+.month {
+  width: 100%;
+  display: flex;
+  /* gap: 0.2rem; */
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.month > .date {
+  margin-right: auto;
+}
+
+.weekdays {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.weekdays > div {
+  /* font-size: 1.5rem; */
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  /* width: calc(47rem / 7); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.days {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 0.2rem; */
+}
+.days div {
+  /* font-size: 1.4rem; */
+  /* margin: 0.3rem; */
+  width: calc(21rem / 7);
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s;
+  border-radius: 50%;
+}
+
+.days div:hover {
+  background-color: #4e4d4d;
+  /* border: 0.2rem solid #777; */
+  cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+
+.today {
+  color: #fb7185;
+}
+.selected {
+  background-color: #fb7185;
+  color: white;
+}
+
+.date-btns {
+  align-self: flex-end;
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.date-btns > button {
+  /* background-color: transparent; */
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+}

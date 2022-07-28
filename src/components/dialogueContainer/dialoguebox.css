@@ -1,0 +1,20 @@
+.list {
+  list-style: none;
+  box-shadow: var(--card-shadow);
+  width: 25rem;
+  border-radius: 0.4rem;
+  position: absolute;
+  /* visibility: hidden; */
+  z-index: 10;
+  background-color: var(--card-bg-color);
+}
+.list-item {
+  display: flex;
+}
+.dialogue > .list-item > * {
+  flex: 1;
+}
+
+.show-dialogue {
+  visibility: visible;
+}

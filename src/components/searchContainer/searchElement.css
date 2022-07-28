@@ -1,0 +1,22 @@
+.search-form {
+  display: flex;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  /* padding: 0.5rem; */
+  border-radius: 0.4rem;
+  /* width: 40rem; */
+  transition: all 0.4s;
+}
+.increase-width {
+  width: 60rem;
+}
+.search-form > input {
+  border: none;
+  background-color: transparent;
+}
+.search-form > input:focus {
+  outline: none;
+}
+/* .close-search {
+  visibility: hidden;
+} */
