@@ -1,7 +1,7 @@
 .main {
-  /* background-color: rgba(51, 38, 40, 0.8); */
-  max-height: calc(100vh - 4.5rem);
-  flex: 1;
-  /* transition: all 0.5s */
-  overflow: scroll;
+	/* background-color: rgba(51, 38, 40, 0.8); */
+	max-height: calc(100vh - 4.5rem);
+	flex: 1;
+	/* transition: all 0.5s */
+	overflow: scroll;
 }

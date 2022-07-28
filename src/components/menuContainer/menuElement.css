@@ -1,28 +1,28 @@
 .menu-container {
-  background-color: rgb(15, 15, 15);
-  position: absolute;
-  top: 4.5rem;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-  display: none;
-  /* opacity: 0; */
+	background-color: rgb(15, 15, 15);
+	position: absolute;
+	top: 4.5rem;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	display: none;
+	/* opacity: 0; */
 }
 .menu-content {
-  min-height: calc(100vh - 4.5rem);
-  position: relative;
-  background-color: var(--card-bg-color);
-  width: 35rem;
-  display: flex;
-  flex-direction: column;
-  gap: var(--medium-space);
-  padding: var(--medium-space);
+	min-height: calc(100vh - 4.5rem);
+	position: relative;
+	background-color: var(--card-bg-color);
+	width: 30rem;
+	display: flex;
+	flex-direction: column;
+	gap: var(--medium-space);
+	padding: var(--medium-space);
 }
 
 @media screen and (min-width: 600px) {
-  .menu-container {
-    width: max-content;
-    position: static;
-    display: initial;
-  }
+	.menu-container {
+		width: max-content;
+		position: static;
+		display: initial;
+	}
 }

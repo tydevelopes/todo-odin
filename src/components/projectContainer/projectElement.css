@@ -1,9 +1,15 @@
+.project-wrapper {
+	width: min(900px, 100%);
+	margin: auto;
+	padding: 2rem;
+}
+
 .project-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .project-name {
-  font-size: 2rem;
-  font-weight: 500;
+	font-size: 2rem;
+	font-weight: 500;
 }
